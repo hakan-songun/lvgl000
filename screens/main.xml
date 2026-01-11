@@ -1,5 +1,5 @@
 <screen>
 	<view style_bg_color="0x041d3a" style_text_color="0xfff">
-		<lv_label text="Hello World..." style_bg_color="0xff1345" />
+		<lv_label text="Hello World..." align="top_mid" y="20" />
 	</view>
 </screen>
