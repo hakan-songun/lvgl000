@@ -1,0 +1,5 @@
+list(
+  APPEND
+  PROJECT_SOURCES
+  ${CMAKE_CURRENT_LIST_DIR}/proj_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/proj.c)
