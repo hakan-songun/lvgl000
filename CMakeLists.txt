@@ -17,9 +17,6 @@ include(${CMAKE_CURRENT_LIST_DIR}/file_list_gen.cmake)
 # Create the UI sources as a library
 add_library(lib-ui ${PROJECT_SOURCES})
 
-# Add the root project folder as include folder
-target_include_directories(lib-ui PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
-
 # You may use this check to add configuration when compiling for the Editor preview,
 # or for your target.
 if (LV_EDITOR_PREVIEW)
