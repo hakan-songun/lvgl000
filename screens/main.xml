@@ -1,9 +1,5 @@
 <screen>
 	<view style_bg_color="0x041d3a" style_text_color="0xfff">
-		<lv_label text="About screen (dynamically created)" align="top_mid" y="10" />
-
-		<!-- If set value on this slider, go to About screen and come back here
-		     the value will remain as the "permanent" screens are not recreated. -->
-		<lv_slider align="center" />
+		<lv_label text="Hello World..." style_bg_color="0xff1345" />
 	</view>
 </screen>
