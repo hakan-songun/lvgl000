@@ -1,6 +1,26 @@
 <screen>
-	<view>
-		<lv_scale max_value="50" min_value="-50" mode="round_outer" total_tick_count="51" x="35" y="30" major_tick_every="5" height="150" width="150"></lv_scale>
-		<lv_scale max_value="50" min_value="-50" mode="round_outer" total_tick_count="51" x="295" y="30" major_tick_every="5" height="150" width="150"></lv_scale>
+	<view width="480" height="272">
+		<lv_scale
+			max_value="50"
+			min_value="-50"
+			mode="round_outer"
+			total_tick_count="51"
+			x="35"
+			y="30"
+			major_tick_every="5"
+			height="150"
+			width="150"
+		/>
+		<lv_scale
+			max_value="50"
+			min_value="-50"
+			mode="round_outer"
+			total_tick_count="51"
+			x="295"
+			y="30"
+			major_tick_every="5"
+			height="150"
+			width="150"
+		/>
 	</view>
 </screen>
