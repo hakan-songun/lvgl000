@@ -1,5 +1,5 @@
-<screen>
-	<view width="480" height="272">
+<screen permanent="true">
+	<view width="480" height="272" style_bg_color="0x053a4e">
 		<lv_scale
 			max_value="50"
 			min_value="-50"
@@ -10,6 +10,9 @@
 			major_tick_every="5"
 			height="140"
 			width="140"
+			style_arc_color="0xFF00FF"
+			style_arc_width="3"
+			style_text_color="0xa68605"
 		/>
 		<lv_scale
 			max_value="50"
@@ -21,6 +24,9 @@
 			major_tick_every="5"
 			height="140"
 			width="140"
+			style_arc_color="0x00ff07"
+			style_arc_width="3"
+			style_text_color="0xa68605"
 		/>
 		<lv_scale
 			max_value="20"
@@ -32,6 +38,9 @@
 			major_tick_every="5"
 			height="70"
 			width="70"
+			style_arc_color="0x00ffcf"
+			style_arc_width="3"
+			style_text_color="0xa68605"
 		/>
 		<lv_label text="Top Sensor" x="65" y="170" style_text_color="0xAA3300" />
 		<lv_label text="Bottom Sensor" x="310" y="170" style_text_color="0xAA3300" />
