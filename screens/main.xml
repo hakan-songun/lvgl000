@@ -8,8 +8,8 @@
 			x="35"
 			y="30"
 			major_tick_every="5"
-			height="150"
-			width="150"
+			height="140"
+			width="140"
 		/>
 		<lv_scale
 			max_value="50"
@@ -19,8 +19,21 @@
 			x="295"
 			y="30"
 			major_tick_every="5"
-			height="150"
-			width="150"
+			height="140"
+			width="140"
 		/>
+		<lv_scale
+			max_value="20"
+			min_value="-20"
+			mode="round_outer"
+			total_tick_count="51"
+			x="200"
+			y="180"
+			major_tick_every="5"
+			height="70"
+			width="70"
+		/>
+		<lv_label text="Top Sensor" x="65" y="170" style_text_color="0xAA3300" />
+		<lv_label text="Bottom Sensor" x="310" y="170" style_text_color="0xAA3300" />
 	</view>
 </screen>
